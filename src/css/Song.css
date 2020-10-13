@@ -1,0 +1,46 @@
+.songContainer {
+    position: relative;
+    margin: 0 auto;
+    padding-right: 10px;
+    
+   
+}
+
+.songContainer img {
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+
+}
+.songContainer {
+    color: bisque;
+    scroll-behavior: auto;
+    -webkit-user-drag: auto;
+    
+}
+   
+
+.songContainer .song { 
+    font-size: 18px;
+    text-align: center;
+    -webkit-text-stroke: 1px white; 
+    color: black;
+    text-shadow: 
+    3px 3px 0 white,
+    -1px -1px 0 white,
+    1px -px 0 white,
+   -1px 1px 0 white,
+    1px 1px 0 white;
+
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.3); /* Black background with 0.5  */
+    color: #f1f1f1;
+    width: 95%;
+    height: 55%;
+    padding: 0px;
+}
+
+
